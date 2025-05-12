@@ -161,16 +161,17 @@ function checkFile(btnName){
                     
                 addPara("hf {]tbmK \\nÀt±i§Ä",dA4Bak,"pHeading mousePointer","false");//വളപ്രയോഗം 
                
-                var ph;
-                var phValues = {
-                   6.5: 75, 6.4: 135, 6.3: 270, 6.2: 405, 6.1: 540, 6: 675, 5.9: 810, 5.8: 945, 5.7: 1080, 5.6: 1215,
-                    5.5: 1350, 5.4: 1485, 5.3: 1620, 5.2: 1755, 5.1: 1890, 5: 2025, 4.9: 2160, 
-                    4.8: 2295, 4.7: 2430, 4.6: 2665, 4.5: 2700, 4.4: 2835, 4.3: 2970, 4.2: 3105,
-                    4.1: 3240, 4: 3375
-                };
-               
-                if (exData.ph<= 6.5) {
-        ph = phValues[parseFloat(exData.ph).toFixed(1)] || 3375;
+                                var ph;
+                var intPh=parseFloat(exData.ph).toFixed(1);
+               var phValues = {
+    "6.5": 75, "6.4": 135, "6.3": 270, "6.2": 405, "6.1": 540, "6.0": 675,
+    "5.9": 810, "5.8": 945, "5.7": 1080, "5.6": 1215, "5.5": 1350, "5.4": 1485,
+    "5.3": 1620, "5.2": 1755, "5.1": 1890, "5.0": 2025, "4.9": 2160, "4.8": 2295,
+    "4.7": 2430, "4.6": 2565, "4.5": 2700, "4.4": 2835, "4.3": 2970, "4.2": 3105,
+    "4.1": 3240, "4.0": 3375,"3.9":3510,"3.8":3645,"3.7":3780,"3.6":3915,"3.5":4050,"3.3":4320,"3.4":4183,"3.2":4455,"3.1":4590,"3.0":4725
+};
+ if (intPh<= 6.5) {
+        ph = phValues[intPh] || 3375;
        
         addPara("• ]pfnckw ImWp¶XvsImïv skân\\v "+ph+" {Kmw hoXw Ip½mbw tNÀt¡ïXmWv. CXn\\p cïv BgvN¡vtijw am{Xw cmkhf{]tbmKw \\S¯pI.",dA4Bak, "commonRec mousePointer", "false");}//കുമ്മായം 
          if (exData.Cu<1){addPara("• sN¼nsâ Ipdhv \\nI¯m³ tIm¸À kÄt^äv Hcp G¡dn\\v 800 {Kmw F¶ tXmXnÂ a®nÂtNÀ¡pI.",dA4Bak,"test","false")}
