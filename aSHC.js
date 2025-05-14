@@ -72,11 +72,8 @@ function checkFile(btnName){
         
             if (btnName=="cards"||btnName=="list") {
                 fPannel.style.opacity=0;
-                var gvr= parseInt(startNumber.value);// (parseInt) function is used to convert a string into an integer
-                var gvrE=parseInt(endNumber.value);
-                    if(gvr>=1&&gvrE<=totalRo&&gvrE>=gvr&& gvr<=totalRo)
-                     {var totalRo = gvrE}//
-                    else {var gvr =1}
+                 let gvr = Math.min(Math.max(parseInt(startNumber.value) || 1, 1), totalRo);
+               let gvrE = Math.min(Math.max(parseInt(endNumber.value) || totalRo, gvr), totalRo);
            
  
  const divFinal= createDiv("conclutionA4");//creating div for checklist
