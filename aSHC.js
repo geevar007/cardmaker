@@ -82,7 +82,7 @@ function checkFile(btnName){
 
 //--L1 start--------------------------loop depend on farmer number or selected card number-----------------------------------------------------------
 
- for (let i=gvr; i <=totalRo;  i++) {
+ for (let i=gvr; i <=gvrE;  i++) {
                    
                 const divA4 = createDiv("a4");//result frond page
                 const dPageNo= createDiv("pageNo");//water mark of card number
