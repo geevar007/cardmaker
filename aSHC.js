@@ -1022,7 +1022,7 @@ function checkFile(btnName){
                             else if(exData.K<=275)   mop=240;
                             else if(exData.K<=315)   mop=180;
                             else if(exData.K<=355)   mop=140;
-                            else  mop=100;;
+                            else  mop=100;
 
                            // var tempTd = document.createElement('td');
                            //  tempTd.textContent = "a-ª-Ä";
@@ -1072,7 +1072,7 @@ function checkFile(btnName){
                             else if(exData.K<=275)   mop=600;
                             else if(exData.K<=315)   mop=480;
                             else if(exData.K<=355)   mop=370;
-                            else  mop=250;;
+                            else  mop=250;
 
                           //  var tempTd = document.createElement('td');
                            //  tempTd.textContent = "tN\\ ";
@@ -1085,6 +1085,109 @@ function checkFile(btnName){
                             addPara("	HcpIp-gn-bv¡v 2 Intem{Kmw  F¶ AfhnÂ Imenhfw/It¼mÌv/]¨nehfw F¶nh tNÀ¡Ww.  ]cntim[\\m ^ew A\\pkcn¨v Hmtcm skân\\pw  "+uooriya+ " {Kmw hoXw bqdnb, " +rajfos+" {Kmw hoXw cmPvt^mkv,  " +mop+" {Kmw  s]m«mjv F¶nhbpw -tNÀt¡ï-Xm-Wv .  ]IpXn bqdnbbpw, ]IpXn s]m«mjpw, apgph³ cmPvt^mkpw \\«v H¶camk¯n\\p tijhpw _m¡n ]IpXn bqdnbbpw ]IpXn s]m«mjpw BZy hf{]tbmKw Ignªp Hcpamk¯n\\p tijhpw tNÀ¯psImSp¡pI. ",
                             dA4Bak,"test","false");
                             break;
+                            case"co"://കൊകൊ
+                            vilaSlNo++; 
+                            if (exData.OC <= 0.16) uooriya = 543;
+                            else if (exData.OC <= 0.33) uooriya = 508;
+                            else if (exData.OC <= 0.50) uooriya = 460;
+                            else if (exData.OC <= 0.75) uooriya = 408;
+                            else if (exData.OC <= 1)    uooriya = 360;
+                            else if (exData.OC <= 1.25) uooriya =308;
+                            else if (exData.OC<= 1.50) uooriya = 260;
+                            else if (exData.OC<= 1.83) uooriya = 208;
+                            else if (exData.OC<= 2.16) uooriya =161;
+                            else  uooriya = 109;
+
+
+                            if(exData.P <=3)      rajfos=500;
+                            else if( exData.P <=6.5)   rajfos= 468;
+                            else if( exData.P <=10)    rajfos= 424;
+                            else if( exData.P <=13.5)  rajfos=376;
+                            else if( exData.P <=17)    rajfos= 332;
+                            else if( exData.P <=20.5)  rajfos= 284;
+                            else if( exData.P <=24)    rajfos=240;
+                            else if( exData.P <=27.5)  rajfos= 192;
+                            else if( exData.P <=30)    rajfos= 148;
+                            else if( exData.P <=34.5)  rajfos= 100;
+                            else rajfos=50;
+        
+                                if(exData.K<=35)     mop=575;
+                            else if(exData.K<=75)    mop=538;
+                            else if(exData.K<=115)   mop=488;
+                            else if(exData.K<=155)   mop=432;
+                            else if(exData.K<=195)   mop=382;
+                            else if(exData.K<=235)   mop=327;
+                            else if(exData.K<=275)   mop=276;
+                            else if(exData.K<=315)   mop=221;
+                            else if(exData.K<=355)   mop=170;
+                            else  mop=115;
+
+                          //  var tempTd = document.createElement('td');
+                           //  tempTd.textContent = "tN\\ ";
+                           //  ftr2.appendChild(tempTd);
+                             
+                            tArray.push("sImt¡m")
+
+
+                            addPara("sImt¡m  ",dA4Bak,"vila mousePointer","false");//കൊകൊ
+                            addPara("Hcp sNSn¡v "+uooriya+ " {Kmw bqdnbbpw, " +rajfos+" {Kmw knwKnÄ kq¸Àt^mkvt^äpw, " +mop+" {Kmw s]m«mjpw AS§p¶ an{inXw hÀj¯nÂ Hcp XhWbmtbm (G{]nÂþsabvamk¯nÂ) AsÃ¦nÂ cïp XhWIfmbn (G{]nÂþsabv, sk]väw_ÀþHtÎm_À amk¯nÂ)  tNÀ¯psImSp¡pI ",
+                            dA4Bak,"test","false");
+                            break;
+
+                            case"cf"://കാപ്പി
+                            vilaSlNo++; 
+                            if (exData.OC <= 0.16) uooriya = 108;
+                            else if (exData.OC <= 0.33) uooriya = 101;
+                            else if (exData.OC <= 0.50) uooriya = 91;
+                            else if (exData.OC <= 0.75) uooriya = 81;
+                            else if (exData.OC <= 1)    uooriya = 71;
+                            else if (exData.OC <= 1.25) uooriya =61;
+                            else if (exData.OC<= 1.50) uooriya = 52;
+                            else if (exData.OC<= 1.83) uooriya = 41;
+                            else if (exData.OC<= 2.16) uooriya =32;
+                            else  uooriya = 22;
+
+
+                            if(exData.P <=3)      rajfos=188;
+                            else if( exData.P <=6.5)   rajfos= 176;
+                            else if( exData.P <=10)    rajfos= 159;
+                            else if( exData.P <=13.5)  rajfos=141;
+                            else if( exData.P <=17)    rajfos= 125;
+                            else if( exData.P <=20.5)  rajfos= 107;
+                            else if( exData.P <=24)    rajfos=90;
+                            else if( exData.P <=27.5)  rajfos= 72;
+                            else if( exData.P <=30)    rajfos= 56;
+                            else if( exData.P <=34.5)  rajfos= 38;
+                            else rajfos=25;
+        
+                                if(exData.K<=35)     mop=83;
+                            else if(exData.K<=75)    mop=77;
+                            else if(exData.K<=115)   mop=70;
+                            else if(exData.K<=155)   mop=62;
+                            else if(exData.K<=195)   mop=55;
+                            else if(exData.K<=235)   mop=47;
+                            else if(exData.K<=275)   mop=40;
+                            else if(exData.K<=315)   mop=32;
+                            else if(exData.K<=355)   mop=24;
+                            else  mop=17;
+
+                          //  var tempTd = document.createElement('td');
+                           //  tempTd.textContent = "tN\\ ";
+                           //  ftr2.appendChild(tempTd);
+                             
+                            tArray.push("Im¸n (tdm_kvä)")
+
+
+                            addPara("Im¸n (tdm_kvä):",dA4Bak,"vila mousePointer","false");//കാപ്പി
+                            addPara(" sNSn H¶n\\v 15 apXÂ 20 Intem{Kmw hoXw Imenhfw/Iwt¼mÌv/]¨nehfw tNÀ¡pI. tdm_kvä Im¸n¡v Hcp sNSn¡v "+uooriya+ " {Kmw hoXw bqdnbbpw,  " +rajfos+" {Kmw hoXw knwKnÄ kq¸À t^mkvt^äpw,  " +mop+" {Kmw s]m«mjpw AS§p¶ an{inXw hÀj¯nÂ 2 XhWIfmbn (G{]nÂþsabv, sk]väw_ÀþHtÎm_À) tNÀ¯psImSp¡pI. ",
+                            dA4Bak,"test","false");
+                            break;
+
+
+
+
+
+
 
 
         
